@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+.back button{
+    border: none;
+    background-color: black;
+}
+.nyhet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nyhet-section{
+    display: flex;
+    flex-direction: row;
+    max-width: 330px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px white;
+}
+.nyhet-section button{
+    background-color: white;
+    border: none;
+}
+.nyhet-section img{
+    width: 300px;
+    height: 200px;
+}
+.nyhet-section button:hover{
+    transform: scale(1.05);
+    cursor: cell;
+}
+footer{
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+}

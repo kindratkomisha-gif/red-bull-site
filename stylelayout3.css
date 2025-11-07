@@ -1,0 +1,46 @@
+body{
+    background-color: blue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+}
+.back{
+    display: flex;
+    justify-content: center;
+}
+.container button{
+    flex: 1;
+    background-color: blue;
+    border: none;
+}   
+.container p{
+    text-align: center;
+    font-size: 30px;
+}
+.innerContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.innerContainer img{
+    height: 550px;
+    width: 250px;;
+    margin-left: 15px;
+}
+.innerContainer p{
+    font-size: 30px;
+    flex: 3;
+    margin-right: 10px;
+    justify-content: center;
+}
+footer{
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+}
